@@ -592,11 +592,12 @@
                                 <div class="client-description">
                                     <!-- Client Text -->
                                     <div class="client-text">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam rem sunt nulla ducimus expedita, incidunt laborum assumenda. Deleniti iste placeat nostrum incidunt rem laudantium, sapiente, cum, molestias unde, quidem labore.</p>
+                                        <p>Wrollit completed the project, communicating quickly with the internal stakeholders. 
+                                            The hard-working team consisted of the passionate engineers.</p>
                                     </div>
                                 </div>
                                 <!-- Client Name -->
-                                <h4 class="client-name color-primary mt-4 mb-2">John Doe</h4>
+                                <h4 class="client-name color-primary mt-4 mb-2">Ali Hamza</h4>
                                 <!-- Client Address -->
                                 <span class="client-address text-secondary fw-6">CEO, Themeland</span>
                             </div>
@@ -608,13 +609,14 @@
                                 <div class="client-description">
                                     <!-- Client Text -->
                                     <div class="client-text">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam rem sunt nulla ducimus expedita, incidunt laborum assumenda. Deleniti iste placeat nostrum incidunt rem laudantium, sapiente, cum, molestias unde, quidem labore.</p>
+                                        <p>Wrollit delivered satisfactory progress towards the client's goals. 
+                                            Their communication and promptness stood out.</p>
                                     </div>
                                 </div>
                                 <!-- Client Name -->
                                 <h4 class="client-name color-primary mt-4 mb-2">Yasmin Akter</h4>
                                 <!-- Client Address -->
-                                <span class="client-address text-secondary fw-6">SEO Expert, Themeland</span>
+                                <span class="client-address text-secondary fw-6">SEO Expert, CyberWeb</span>
                             </div>
                             <!-- Single Testimonial -->
                             <div class="single-testimonial p-3 p-md-5">
@@ -624,13 +626,15 @@
                                 <div class="client-description">
                                     <!-- Client Text -->
                                     <div class="client-text">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam rem sunt nulla ducimus expedita, incidunt laborum assumenda. Deleniti iste placeat nostrum incidunt rem laudantium, sapiente, cum, molestias unde, quidem labore.</p>
+                                        <p>It was a good experience with wrollit i endorse their efficient and 
+                                            optimized services.
+                                        </p>
                                     </div>
                                 </div>
                                 <!-- Client Name -->
                                 <h4 class="client-name color-primary mt-4 mb-2">Md. Arham</h4>
                                 <!-- Client Address -->
-                                <span class="client-address text-secondary fw-6">Web Developer, Themeland</span>
+                                <span class="client-address text-secondary fw-6">Web Developer, telenor</span>
                             </div>
                         </div>
                     </div>
@@ -666,10 +670,11 @@
                         <!-- CTA Text -->
                         <div class="cta-text text-center">
                             <h2 class="text-white">Need any help? We are<br>always here to assist you!</h2>
-                            <p class="text-white my-4 fw-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
+                            <p class="text-white my-4 fw-3">Our customers are our first priority. Our doors are always wide open
+                                for you. Meet us virtually or visit our office. We will try our best to satisfy your requiremnets! </p>
                             <div class="button-group">
-                                <a href="#contact" class="btn btn-white"><i class="fas fa-envelope-open-text mr-2"></i>Contact Us</a>
-                                <a href="#" class="btn btn-white"><i class="fas fa-phone-alt mr-2"></i>03215522070</a>
+                                <a href="#contact" class="btn btn-white" style="color:black"><i class="fas fa-envelope-open-text mr-2"></i>Contact Us</a>
+                                <a href="#" class="btn btn-white" style="color:black"><i class="fas fa-phone-alt mr-2"></i>03215522070</a>
                             </div>
                         </div>
                     </div>
@@ -826,66 +831,8 @@
                                 </ul>
                             </div>
                         </div>
-                       
-                        
-                        <!-- <div class="col-12 col-md-4 footer-sec"> -->
-                            <!-- Footer Title -->
-                            <!-- <div class="footer-title">
-                                <h3 class="d-inline-block mb-4">Latest News</h3>
-                            </div> -->
-                            <!-- Latest News -->
-                            <!-- <div class="footer-content latest-news">
-                                <ul>
-                                    <li class="py-2"> -->
-                                        <!-- Single News -->
-                                        <!-- <div class="single-news media"> -->
-                                            <!-- News Thumb -->
-                                            <!-- <div class="news-thumb">
-                                                <img class="avatar-lg rounded-lg" src="assets/img/blog/blog-4.jpg" alt="">
-                                            </div> -->
-                                            <!-- News Content -->
-                                            <!-- <div class="news-content media-body align-self-center pl-3">
-                                                <p class="pb-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p> -->
-                                                <!-- Meta Info -->
-                                                <!-- <div class="meta-info d-flex flex-wrap">
-                                                    <a class="pr-2" href="#">19 January, 2020</a>
-                                                    <a class="px-2" href="#"><i class="fas fa-comments pr-2"></i>05</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="py-2"> -->
-                                        <!-- Single News -->
-                                        <!-- <div class="single-news media"> -->
-                                            <!-- News Thumb -->
-                                            <!-- <div class="news-thumb">
-                                                <img class="avatar-lg rounded-lg" src="assets/img/blog/blog-4.jpg" alt="">
-                                            </div> -->
-                                            <!-- News Content -->
-                                            <!-- <div class="news-content media-body align-self-center pl-3">
-                                                <p class="pb-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p> -->
-                                                <!-- Meta Info -->
-                                                <!-- <div class="meta-info d-flex flex-wrap">
-                                                    <a class="pr-2" href="#">19 January, 2020</a>
-                                                    <a class="px-2" href="#"><i class="fas fa-comments pr-2"></i>19</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-            <!-- Copyright Area -->
-            <!-- <div class="copyright-area">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        Theme-Land &copy; 2020 All Rights Reserved
-                    </div>
-                </div>
-            </div> -->
+                    
+                                   
         </footer>
         <!--====== Footer Area End ======-->
     </div>
