@@ -555,8 +555,8 @@ img {
     border: 1px solid #dfe4e7;
     border-radius: .3rem;
     overflow: hidden;
-    background-image: -webkit-gradient(linear, left top, right top, from(#0F4C81), color-stop(10%, #175C98), color-stop(80%, #175C98), to(#0F4C81));
-    background-image: linear-gradient(to right, #0F4C81 0%, #175C98 10%, #175C98 80%, #0F4C81 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#737373), color-stop(10%,#737373), color-stop(80%, #737373), to(#737373));
+    background-image: linear-gradient(to right, #737373 0%, #636363 10%, #717171 80%, #696969 100%);
     background-repeat: no-repeat;
     background-size: 10% 100%;
     background-position: -100% center;
@@ -567,7 +567,7 @@ img {
 .btn:active,
 .btn:hover {
     color: #fff;
-    border-color: #252b30;
+    border-color: #737373;
     -webkit-box-shadow: 0.2rem 0.1rem 1.2rem rgba(91, 91, 91, 0.5);
     box-shadow: 0.2rem 0.1rem 1.2rem rgba(91, 91, 91, 0.5);
     background-size: 150% 100%;
@@ -888,7 +888,7 @@ img {
 :: 5.0 PRELOADER AREA CSS
 ****************************** */
 #loader-wrapper {
-    background: #0F4C81;
+    background: #737373;
     position: fixed;
     overflow: hidden;
     height: 100%;

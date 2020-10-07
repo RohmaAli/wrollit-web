@@ -9,7 +9,7 @@ use App\User;
 
 class ContactController extends Controller
 {
-    public function test()
+    public function wrollitView()
     {
         return view('index-3');
     }
@@ -24,6 +24,6 @@ class ContactController extends Controller
         $user->save();
 
         Mail::to('contact@wrollit.com')->send(new ContactMail($request->name,$request->message, $request->phone ));
-
+        return redirect(route('home'));
     }
 }

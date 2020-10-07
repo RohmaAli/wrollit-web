@@ -14,5 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/testing', 'ContactController@test');
+Route::get('/wrollit', 'ContactController@wrollitView')->name('home');
 Route::post('/contactPage', 'ContactController@contactUs')->name('contact');

@@ -28,19 +28,9 @@
 
 <body class="homepage-3">
     <!--====== Preloader Area Start ======-->
-    <div id="loader-wrapper">
+    <div id="loader-wrapper" class="d-flex justify-content-center align-items-center 
         <!-- Loader -->
-        <div class="loader">
-            <svg>
-                <defs>
-                    <filter id="goo">
-                        <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
-                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 5 -2" result="gooey" />
-                        <feComposite in="SourceGraphic" in2="gooey" operator="atop" />
-                    </filter>
-                </defs>
-            </svg>
-        </div>
+        <img src="assets/img/logo/wrollitlogo.png" width="100px">
     </div>
     <!--====== Preloader Area End ======-->
 
@@ -52,7 +42,7 @@
 
     <div class="main">
         <!-- ***** Header Start ***** -->
-        <header class="navbar navbar-sticky navbar-expand-lg navbar-dark">
+        <header  class="navbar navbar-sticky navbar-expand-lg navbar-dark">
             <div class="container position-relative">
                 <a class="navbar-brand" href="index.html">
                     <img class="navbar-brand-regular" width="300" height="50" src="assets/img/logo/wlogo.png" alt="brand-logo">
@@ -69,16 +59,9 @@
                     </button>
                     <nav>
                         <ul class="navbar-nav" id="navbar-nav">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink">
-                                    Home
-                                </a>
-                               
+                        <li class="nav-item">
+                                <a class="nav-link scroll" href="#home">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="#about">About</a>
-                            </li>
-                          
                             <li class="nav-item">
                                 <a class="nav-link scroll" href="#services">Services</a>
                             </li>
@@ -108,15 +91,11 @@
             <div class="container">
                 <div class="row align-items-center">
                     <!-- Welcome Intro Start -->
-                    <div class="col-12 col-md-7 col-lg-6">
-                        <div class="welcome-intro">
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div id="home" style="margin-left:30px" class="welcome-intro">
                             <h1 class="text-white">Make more clients with Wrollit</h1>
                             <p class="text-white my-4">We are WROLLIT- your friend in everything from software application development to Social media management and IT Consultancy.</p>
-                            <!-- Subscribe Form -->
-                            <div class="subscribe-form d-flex align-items-center">
-                                <input type="email" class="form-control" placeholder="info@yourmail.com">
-                                <button type="submit" class="btn btn-bordered">Join Us</button>
-                            </div>
+                          
                         </div>
                     </div>
                 
@@ -138,54 +117,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="row justify-content-center">
-                    <nav>
-                        <div class="nav nav-tabs mb-5" id="nav-tab" role="tablist">
-                            <a class="nav-item nav-link active text-uppercase fw-6 border-0" id="nav-home-tab" data-toggle="tab" href="#strategy">Quality Strategy</a>
-                            <a class="nav-item nav-link text-uppercase fw-6 border-0" id="nav-profile-tab" data-toggle="tab" href="#finance">Financial Services</a>
-                            <a class="nav-item nav-link text-uppercase fw-6 border-0" id="nav-contact-tab" data-toggle="tab" href="#planning">Successful Planning</a>
-                        </div>
-                    </nav>
-                </div> -->
-                <!-- <div class="row">
-                    <div class="col-12">
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="strategy" role="tabpanel">
-                                <div class="row">
-                                    <div class="col-12 col-lg-6 order-2 order-lg-1">
-                                        <p class="pt-4 pt-lg-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.<br><br>Sometimes by accident, sometimes on purpose (injected humour and the like). Take a deep dive and try our list of over 40 unique generators, find placeholder images for your next design, or add a lorem ipsum plugin to the CMS or text editor of your choice. The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout.</p>
-                                        <a href="#" class="btn mt-4">Know More</a>
-                                    </div>
-                                    <div class="col-12 col-lg-6 order-1 order-lg-2">
-                                        <img src="assets/img/blog/blog-2.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="finance" role="tabpanel">
-                                <div class="row">
-                                    <div class="col-12 col-lg-6">
-                                        <img src="assets/img/blog/blog-3.jpg" alt="">
-                                    </div>
-                                    <div class="col-12 col-lg-6">
-                                        <p class="pt-4 pt-lg-0">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over a Latin professor at Hampden-Sydney College in Virginia.</p>
-                                        <a href="#" class="btn mt-4">Know More</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="planning" role="tabpanel">
-                                <div class="row">
-                                    <div class="col-12 col-lg-6 order-2 order-lg-1">
-                                        <p class="pt-4 pt-lg-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br><br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                                        <a href="#" class="btn mt-4">Know More</a>
-                                    </div>
-                                    <div class="col-12 col-lg-6 order-1 order-lg-2">
-                                        <img src="assets/img/blog/blog-5.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                <!-- </div> -->
+
             </div>
         </section>
         <!-- ***** Why Choose Us Area End ***** -->
@@ -736,7 +668,7 @@
                             <h2 class="text-white">Need any help? We are<br>always here to assist you!</h2>
                             <p class="text-white my-4 fw-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
                             <div class="button-group">
-                                <a href="#" class="btn btn-white"><i class="fas fa-envelope-open-text mr-2"></i>Contact Us</a>
+                                <a href="#contact" class="btn btn-white"><i class="fas fa-envelope-open-text mr-2"></i>Contact Us</a>
                                 <a href="#" class="btn btn-white"><i class="fas fa-phone-alt mr-2"></i>03215522070</a>
                             </div>
                         </div>
