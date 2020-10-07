@@ -1,0 +1,547 @@
+/* ************************************************************
+:: Template Name: Corbus - Corporate Business Template
+:: Template URI: https://theme-land.com/corbus/
+:: Template Author Name: theme_land
+:: Template Author URI: hridoy1272@gmail.com
+:: Version: 1.0.0
+:: Created: 04 March 2020
+************************************************************ 
+*
+*
+******* :: INDEX OF RESPONSIVE CSS :: *******
+:: 1.0 COMMON CSS
+:: 2.0 HEADER AREA CSS
+:: 3.0 WELCOME AREA CSS
+:: 4.0 BLOG AREA CSS
+:: 5.0 BLOG PAGE DETAILS AREA CSS
+****************************** */
+
+/* ******************************
+:: 1.0 COMMON CSS
+****************************** */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ptb_180 {
+        padding: 150px 0;
+    }
+
+    .ptb_150 {
+        padding: 120px 0;
+    }
+
+    .ptb_100 {
+        padding: 90px 0;
+    }
+
+    .mtb_100 {
+        margin: 90px 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .res-margin {
+        margin-bottom: 45px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .section-heading {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ptb_180 {
+        padding: 130px 0;
+    }
+
+    .ptb_150,
+    .ptb_100,
+    .mtb_100 {
+        padding: 80px 0;
+    }
+
+    h1 {
+        font-size: 2.8em;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 575px) {
+    .ptb_180 {
+        padding: 80px 0;
+    }
+
+    .res-margin {
+        margin-bottom: 35px;
+    }
+
+    h1 {
+        font-size: 2.2em;
+        line-height: 1.3;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    h4 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    p {
+        line-height: 26px;
+    }
+
+    .button-group a {
+        margin-top: 10px;
+    }
+}
+
+/* ******************************
+:: 2.0 HEADER AREA CSS
+****************************** */
+@media (min-width: 992px) {
+    .navbar .navbar-nav .nav-link {
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+    }
+
+    .navbar-sticky-on .navbar-nav .nav-link {
+        padding-top: 1.625rem;
+        padding-bottom: 1.625rem;
+    }
+
+    .dropdown-menu {
+        opacity: 0;
+        display: block;
+        visibility: hidden;
+        min-width: 14.375rem;
+        margin-top: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    .navbar-nav li:hover > ul.dropdown-menu {
+        opacity: 1;
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+        visibility: visible;
+    }
+}
+
+@media (max-width: 991px) {
+    .main:before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        background: #fff;
+        z-index: 3;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: .3s;
+        transition: .3s;
+    }
+
+    [data-theme=dark] .main:before {
+        background: #01081f;
+    }
+
+    .canvas-open {
+        overflow: hidden;
+    }
+
+    .canvas-open .main:before {
+        width: 100%;
+        opacity: .95;
+        visibility: visible;
+    }
+
+    .navbar {
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar.active .navbar-inner {
+        right: 0;
+    }
+
+    .navbar .navbar-inner {
+        right: -100%;
+        -webkit-transition: right 0.3s 0.2s;
+        transition: right 0.3s 0.2s;
+    }
+
+    .navbar .nav-link {
+        border-bottom: 1px solid #eee;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+
+    [data-theme=dark] .navbar .nav-link {
+        border-bottom: 1px solid #1E2745;
+    }
+
+    .navbar.navbar-dark .nav-link {
+        color: #54565a;
+    }
+
+    [data-theme=dark] .navbar.navbar-dark .nav-link {
+        color: #f6f8f9;
+    }
+
+    .navbar.navbar-dark .nav-link:hover,
+    .navbar.navbar-dark .nav-link:focus,
+    .navbar.navbar-dark .nav-link.active,
+    .navbar.navbar-dark .nav-link.current-menu-item {
+        color: #2c2e30;
+    }
+
+    [data-theme=dark] .navbar.navbar-dark .nav-link {
+        color: #e7eaee;
+    }
+
+    [data-theme=dark] .navbar.navbar-dark .nav-link:hover {
+        background: #01081f;
+    }
+
+    [data-theme=dark] .dropdown-item:focus,
+    [data-theme=dark] .dropdown-item:hover {
+        background: #01081f;
+    }
+
+    .navbar-inner {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 20rem;
+        padding-top: 2.5rem;
+        background-color: #fff;
+        -webkit-box-shadow: 0 0.5rem 1.875rem rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0.5rem 1.875rem rgba(0, 0, 0, 0.15);
+        border-radius: 0;
+        overflow-y: auto;
+        z-index: 1050;
+    }
+
+    [data-theme=dark] .navbar-inner {
+        background: #151c32;
+    }
+
+    .navbar-inner .dropdown-menu:before {
+        content: none;
+    }
+
+    .navbar-inner .dropdown-menu {
+        border: medium none;
+        background: none;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        float: none;
+        margin: 0;
+        padding-top: 0;
+        position: static;
+    }
+
+    [data-theme=dark] .navbar-inner .dropdown-menu .dropdown-item {
+        color: #f6f8f9;
+    }
+
+    [data-theme=dark] .navbar-inner .dropdown-menu .dropdown-item:hover {
+        background: #01081f;
+    }
+
+    .navbar.navbar-dark .dropdown.show > .nav-link {
+        color: #2c2e30;
+    }
+
+    [data-theme=dark] .navbar.navbar-dark .dropdown.show > .nav-link {
+        color: #e3e4e6;
+    }
+
+    .nav-open .main-wrapper {
+        -webkit-transform: translate3d(-150px, 0, 0);
+        transform: translate3d(-150px, 0, 0);
+    }
+
+    /*MOBILE NAVBAR TOGGLER*/
+    .navbar-toggler {
+        position: absolute !important;
+        top: auto;
+        right: 0;
+        bottom: auto;
+        left: auto;
+        border: none;
+        height: 100%;
+        width: 3.75rem;
+        background-image: none;
+        border-radius: 0;
+        z-index: 1;
+        display: inline-block;
+    }
+
+    .navbar-inner .navbar-toggler {
+        position: absolute;
+        height: 2.5rem;
+        top: 0;
+    }
+
+    .navbar-toggler-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        background-image: none !important;
+    }
+
+    .navbar-toggler-icon,
+    .navbar-toggler-icon:before,
+    .navbar-toggler-icon:after {
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    .navbar-toggler-icon {
+        height: 3px;
+        width: 50%;
+        background: #7e8085;
+        display: inline-block;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        background: #fff;
+    }
+
+    .navbar-sticky-on .navbar-toggler-icon {
+        background: #7e8085;
+    }
+
+    .navbar-dark .navbar-toggler-icon.active:before,
+    .navbar-dark .navbar-toggler-icon.active:after {
+        background: #7e8085;
+    }
+
+    .navbar-toggler-icon:before,
+    .navbar-toggler-icon:after {
+        content: "";
+        background: #7e8085;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .navbar-dark .navbar-toggler-icon:before,
+    .navbar-dark .navbar-toggler-icon:after {
+        background: #fff;
+    }
+
+    .navbar-sticky-on .navbar-toggler-icon:before,
+    .navbar-sticky-on .navbar-toggler-icon:after {
+        background: #7e8085;
+    }
+
+    .navbar-toggler-icon::before {
+        top: -0.625rem;
+    }
+
+    .navbar-toggler-icon::after {
+        top: 0.625rem;
+    }
+
+    .navbar-toggler-icon.active {
+        background-color: transparent;
+        -webkit-transform: scale(0.85) rotate(270deg);
+        transform: scale(0.85) rotate(270deg);
+    }
+
+    .navbar-toggler-icon.active:before {
+        top: 0;
+        -webkit-transform: scale(0.65) rotate(45deg);
+        transform: scale(0.65) rotate(45deg);
+    }
+
+    .navbar-toggler-icon.active:after {
+        top: 0;
+        -webkit-transform: scale(0.65) rotate(-45deg);
+        transform: scale(0.65) rotate(-45deg);
+    }
+}
+
+/* ******************************
+:: 3.0 WELCOME AREA CSS
+****************************** */
+@media (max-width: 991px) {
+    .welcome-area {
+        height: 700px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .welcome-area {
+        height: 100% !important;
+        padding-top: 90px;
+    }
+
+    .welcome-intro {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .welcome-intro {
+        margin-top: 20px;
+    }
+}
+
+/* ******************************
+:: 4.0 BLOG AREA CSS
+****************************** */
+@media (max-width: 767px) {
+    .blog-page {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 575px) {
+    .blog-title {
+        font-size: 22px;
+    }
+}
+
+/* ******************************
+:: 5.0 BLOG PAGE DETAILS AREA CSS
+****************************** */
+@media (max-width: 991px) {
+    .sidebar .single-widget:last-child {
+        margin-bottom: 35px;
+    }
+
+    .blog-right .sidebar .single-widget:first-child {
+        margin-top: 35px;
+    }
+
+    .blog-right .sidebar .single-widget:last-child {
+        margin-bottom: 0;
+    }
+
+    .widget-items .single-post {
+        padding: 16px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .post-widget .widget-items .post-date {
+        font-size: 14px;
+    }
+
+    .post-content h6 {
+        font-size: 18px;
+    }
+
+    .corbus-blog .blog-share a {
+        padding: 0 6px;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-details-right .search-widget {
+        margin-top: 35px;
+    }
+
+    .blog .meta-info {
+        margin-top: 20px;
+    }
+
+    .single-blog-details .blog-content {
+        padding: 0;
+    }
+
+    .corbus-blog .blog-details .blog-title > a {
+        font-size: 22px;
+    }
+
+    .admin-name {
+        font-size: 18px;
+    }
+
+    .single-comments {
+        margin-left: 0;
+    }
+
+    .comments-content h5 {
+        font-size: 16px;
+    }
+
+    .comments-content a:last-child {
+        font-size: 14px;
+    }
+
+    .post-content h6 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    .corbus-blog .blog-details .blog-title > a {
+        font-size: 18px;
+    }
+
+    .corbus-blog .meta-info {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .corbus-blog .blog-share {
+        margin: inherit;
+        margin-top: 10px;
+    }
+
+    .admin {
+        display: inline-block;
+    }
+
+    .admin-content {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .single-comments {
+        display: inline-block;
+    }
+
+    .comments-content {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+}

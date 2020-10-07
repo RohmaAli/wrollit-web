@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/testing', 'ContactController@test');
+Route::post('/contactPage', 'ContactController@contactUs')->name('contact');
